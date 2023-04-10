@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Ubuntu:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    background-color: #24252A;
+}
+
+:root {
+    --font-family-primary: 'Roboto', sans-serif;
+    --font-family-secundary: 'Ubuntu', sans-serif;
+}
+
+
+li, a, button {
+    font-family: var(--font-family-primary);
+    font-weight: 500px;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+}
+
+.logo{
+    background-image: url(JD-logo.svg);
+    height: 38px;
+    width: 197px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color:#ca6ca4;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: #DA006C;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
